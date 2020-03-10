@@ -14,7 +14,7 @@ public class Task1Test {
     /**
      * Аналитик попросил посмотреть есть ли и какие города с именами больше 16 символов (чтобы влезло в GUI на вебе)
      * <p>
-     * Вывести все города, имена (без пробелов) которых больше 16 символов, отсортировать по названию
+     * Вывести все города, имена которых больше 16 символов, игнорировать города с пробелами в названии, отсортировать по названию
      */
     @Test
     public void test() {
@@ -23,7 +23,7 @@ public class Task1Test {
         );
 
         World world = new WorldRepository(file.getAbsolutePath()).helloWorld();
-        List<String> cityList = world.getAllCitiesNamesWithoutWhitespacesMoreTenSymbols();
+        List<String> cityList = world.getAllCitiesNamesWithoutWhitespacesMoreTenSymbolsSortedByName();
         System.out.println(cityList);
         assertThat(cityList.size()).isEqualTo(188);
     }
