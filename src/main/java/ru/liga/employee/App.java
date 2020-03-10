@@ -16,7 +16,8 @@ public class App {
                 new Employee("Витя", 20, 110000),
                 new Employee("Константин Иванович", 38, 90000),
                 new Employee("Владислав Игнатьевич", 37, 300000),
-                new Employee("Настя", 19, 190000)));
+                new Employee("Настя", 19, 190000),
+                new Employee("Вова", 20, 30000)));
         System.out.println(strings);
     }
 
