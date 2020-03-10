@@ -20,6 +20,11 @@ public class App {
         System.out.println(strings);
     }
 
+    /**
+     *
+     * @param allEmployees список сотрудников
+     * @return Список имен сотрудников отсортированном по алфавиту, у которых зарплата больше 100 000 и возраст меньше 21 лет
+     */
     public static List<String> namesOfYoungAndRichEmployees(List<Employee> allEmployees) {
         throw new NotImplementedException();
     }
