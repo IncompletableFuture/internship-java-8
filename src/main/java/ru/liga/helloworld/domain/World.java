@@ -5,13 +5,23 @@ import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 import java.util.List;
 
 public class World {
-    private final List<Country> country;
+    private final List<Country> countries;
 
-    public World(List<Country> country) {
-        this.country = country;
+    public World(List<Country> countries) {
+        this.countries = countries;
     }
 
-    public List<String> getAllCitiesNamesWithoutWhitespacesMoreTenSymbolsSortedByName() {
+    public List<City> getAllCitiesNamesWithoutWhitespacesMoreTenSymbolsSortedByName() {
         throw new NotImplementedException();
     }
+
+    public List<Country> getCountries() {
+        return countries;
+    }
+
+
+    public long threeOrLessLetterNameOfCityCountryCount() {
+        throw new NotImplementedException();    }
+
+
 }

@@ -1,6 +1,7 @@
 package ru.liga.helloworld;
 
 import org.junit.Test;
+import ru.liga.helloworld.domain.City;
 import ru.liga.helloworld.domain.World;
 import ru.liga.helloworld.repo.WorldRepository;
 
@@ -23,7 +24,7 @@ public class Task1Test {
         );
 
         World world = new WorldRepository(file.getAbsolutePath()).helloWorld();
-        List<String> cityList = world.getAllCitiesNamesWithoutWhitespacesMoreTenSymbolsSortedByName();
+        List<City> cityList = world.getAllCitiesNamesWithoutWhitespacesMoreTenSymbolsSortedByName();
         System.out.println(cityList);
         assertThat(cityList.size()).isEqualTo(188);
     }

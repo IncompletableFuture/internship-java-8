@@ -1,6 +1,9 @@
 package ru.liga.helloworld.domain;
 
+import sun.reflect.generics.reflectiveObjects.NotImplementedException;
+
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Country {
     private final List<Region> regions;
@@ -18,6 +21,15 @@ public class Country {
     public String getName() {
         return name;
     }
+
+    /**
+     * Есть ли в стране города с короткими названиями (3 и меньше букв)
+     * @return true - есть
+     */
+    public boolean hasCitiesWithThreeOrLessLetterName() {
+        throw new NotImplementedException();
+    }
+
 }
 
 
