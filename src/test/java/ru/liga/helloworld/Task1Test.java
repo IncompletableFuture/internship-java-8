@@ -24,7 +24,7 @@ public class Task1Test {
         );
 
         World world = new WorldRepository(file.getAbsolutePath()).helloWorld();
-        List<City> cityList = world.getAllCitiesNamesWithoutWhitespacesMoreTenSymbolsSortedByName();
+        List<City> cityList = world.getAllCitiesNamesWithoutWhitespacesMoreSixteenSymbolsSortedByName();
         System.out.println(cityList);
         assertThat(cityList.size()).isEqualTo(188);
     }

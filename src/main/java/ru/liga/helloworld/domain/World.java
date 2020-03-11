@@ -11,7 +11,7 @@ public class World {
         this.countries = countries;
     }
 
-    public List<City> getAllCitiesNamesWithoutWhitespacesMoreTenSymbolsSortedByName() {
+    public List<City> getAllCitiesNamesWithoutWhitespacesMoreSixteenSymbolsSortedByName() {
         throw new NotImplementedException();
     }
 
