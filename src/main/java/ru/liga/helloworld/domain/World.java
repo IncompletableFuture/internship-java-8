@@ -1,7 +1,5 @@
 package ru.liga.helloworld.domain;
 
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
-
 import java.util.List;
 
 public class World {
@@ -12,7 +10,8 @@ public class World {
     }
 
     public List<City> getAllCitiesNamesWithoutWhitespacesMoreSixteenSymbolsSortedByName() {
-        throw new NotImplementedException();
+        //TODO: Реализовать
+        return null;
     }
 
     public List<Country> getCountries() {
@@ -21,7 +20,9 @@ public class World {
 
 
     public long threeOrLessLetterNameOfCityCountryCount() {
-        throw new NotImplementedException();    }
+        //TODO: Реализовать
+        return -1;
+    }
 
 
 }

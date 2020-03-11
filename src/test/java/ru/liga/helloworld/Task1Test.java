@@ -27,6 +27,10 @@ public class Task1Test {
         List<City> cityList = world.getAllCitiesNamesWithoutWhitespacesMoreSixteenSymbolsSortedByName();
         System.out.println(cityList);
         assertThat(cityList.size()).isEqualTo(188);
+        assertThat(cityList.get(1).getName()).isEqualTo("Abergement-le-Petit");
     }
+
+
+
 
 }
