@@ -1,4 +1,4 @@
-package ru.liga.refactoring.l;
+package ru.liga.oop.l;
 
 class Square extends Rectangle {
 	

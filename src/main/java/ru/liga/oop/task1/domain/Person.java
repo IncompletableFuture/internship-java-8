@@ -1,4 +1,4 @@
-package ru.liga.refactoring.task1.domain;
+package ru.liga.oop.task1.domain;
 
 public class Person {
     private Long id;

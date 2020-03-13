@@ -1,4 +1,4 @@
-package ru.liga.refactoring.o;
+package ru.liga.oop;
 
 /**
  * Created by dzharkov on 13.03.2020.
@@ -6,10 +6,3 @@ package ru.liga.refactoring.o;
 
 public class Main {
 }
-
-
-
-
-
-
-

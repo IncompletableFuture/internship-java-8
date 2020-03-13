@@ -1,4 +1,4 @@
-package ru.liga.refactoring.l;
+package ru.liga.oop.l;
 
 /**
  * Created by dzharkov on 13.03.2020.

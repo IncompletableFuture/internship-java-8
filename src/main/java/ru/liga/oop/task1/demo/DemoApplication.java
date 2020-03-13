@@ -1,6 +1,6 @@
-package ru.liga.refactoring.task1.demo;
+package ru.liga.oop.task1.demo;
 
-import ru.liga.refactoring.task1.service.PersonService;
+import ru.liga.oop.task1.service.PersonService;
 
 public class DemoApplication {
 

@@ -1,6 +1,6 @@
-package ru.liga.refactoring.task1.service;
+package ru.liga.oop.task1.service;
 
-import ru.liga.refactoring.task1.domain.Person;
+import ru.liga.oop.task1.domain.Person;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

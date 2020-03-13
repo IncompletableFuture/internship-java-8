@@ -1,4 +1,4 @@
-package ru.liga.refactoring.i;
+package ru.liga.oop.i;
 
 import java.util.ArrayList;
 import java.util.List;
