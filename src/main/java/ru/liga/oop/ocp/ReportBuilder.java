@@ -1,9 +1,9 @@
 package ru.liga.oop.ocp;
 
 public class ReportBuilder {
-    private Logger logger;
+    private ILogger logger;
 
-    public ReportBuilder(Logger logger) {
+    public ReportBuilder(ILogger logger) {
         this.logger = logger;
     }
 
